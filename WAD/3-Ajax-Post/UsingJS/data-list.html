@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Data List</title>
+    <script>
+      // Function to display the user data list on a new page
+      function showDataList() {
+        var userList = JSON.parse(localStorage.getItem("userList"));
+        if (!userList) {
+          userList = []; // If no data found, initialize an empty array
+        }
+
+        var dataList = document.getElementById("dataList");
+        userList.forEach(function (user) {
+          var listItem = document.createElement("li");
+          listItem.textContent = `${user.firstName} ${user.lastName} - ${user.email}`;
+          dataList.appendChild(listItem);
+        });
+
+        console.log(userList);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>User Data List</h1>
+    <ul id="dataList"></ul>
+    <script>
+      showDataList();
+    </script>
+  </body>
+</html>

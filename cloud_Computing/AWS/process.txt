@@ -1,0 +1,11 @@
+1. Amazon management console
+
+2. Services-> Compute -> EC2
+
+
+NOTE: 
+
+There are videos on amazon aws application development to get your hands on it!!
+Its not a great deal !!
+
+Just make sure that you have an AWS account that require detaila of your debit or a credit card and 2 Rs. (as per now) and you can enjoy it for the next year...But make sure that you are ONLY using the facilities till the three tier free services.

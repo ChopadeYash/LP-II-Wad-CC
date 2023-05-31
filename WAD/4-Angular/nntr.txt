@@ -1,0 +1,11 @@
+---To Start FrontEnd---
+    --Open Terminal
+    --navigate to:user-app
+    --run command:  npm i
+    --run command:  npm start
+
+---To Start Backend---
+    --Open Another Terminal Without closing the first Terminal
+    --navigate to:  user-app
+    --run command:  npm i -g json-server
+    --run command:  json-server --watch db.json
